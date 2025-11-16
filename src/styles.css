@@ -1,0 +1,32 @@
+/* You can add global styles to this file, and also import other style files */
+table th {
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+table td {
+  font-size: 14px;
+}
+
+.table-responsive {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.addButton{
+    float: right;
+}
+
+.card {
+  border-radius: 10px;
+}
+
+.card-header {
+  border-radius: 10px 10px 0 0;
+}
+
+form label {
+  font-weight: 600;
+}
+

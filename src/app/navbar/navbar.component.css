@@ -1,0 +1,27 @@
+/* Sidebar */
+.sidebar {
+  width: 220px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-y: auto;
+}
+
+/* Content next to sidebar */
+.content {
+  margin-left: 220px;
+  width: calc(100% - 220px);
+}
+
+/* Sticky Header */
+.top-header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+/* Page Content */
+.page-content {
+  padding-top: 20px;
+}

@@ -1,0 +1,27 @@
+<div class="table-responsive mt-4">
+    <button class="addButton btn btn-info mb-2" (click)="addState()">Add State</button>
+  <table class="table table-bordered table-striped table-hover align-middle">
+    <thead class="table-dark text-center">
+      <tr>
+        <th>State Name</th>
+        <th>State Population</th>
+        <th>State Area</th>
+        <th>Contituensy Count</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr *ngFor="let state of stateList">
+        <td>{{state.stateName}}</td>
+        <td>{{state.statePopulation}}</td>
+        <td>{{state.stateArea}}</td>
+        <td>{{state.stateConstituensy}}</td>
+        <td class="text-center">
+          <button class="btn btn-sm btn-primary me-1" (click)="editState(state)">Edit</button>
+          <button class="btn btn-sm btn-danger" (click)="deleteState(state)">Delete</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

@@ -1,0 +1,41 @@
+<div class="table-responsive mt-4">
+    <button class="addButton btn btn-info mb-2" (click)="addMandal()">Add Mandal</button>
+  <table class="table table-bordered table-striped table-hover align-middle">
+    <thead class="table-dark text-center">
+      <tr>
+        <th>#</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Role</th>
+        <th>Status</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Amit Sharma</td>
+        <td>amit</td>
+        <td>Admin</td>
+        <td><span class="badge bg-success">Active</span></td>
+        <td class="text-center">
+          <button class="btn btn-sm btn-primary me-1">Edit</button>
+          <button class="btn btn-sm btn-danger">Delete</button>
+        </td>
+      </tr>
+
+      <tr>
+        <td>2</td>
+        <td>Riya Patel</td>
+        <td>riya</td>
+        <td>User</td>
+        <td><span class="badge bg-warning text-dark">Pending</span></td>
+        <td class="text-center">
+          <button class="btn btn-sm btn-primary me-1">Edit</button>
+          <button class="btn btn-sm btn-danger">Delete</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

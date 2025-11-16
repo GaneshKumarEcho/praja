@@ -1,0 +1,26 @@
+.selectClass {
+    width: 60%;
+    height: 35px;
+    padding: 5px;
+}
+
+.addHeader {
+    font-size: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.bodyContent {
+    margin: 10px 70px;
+}
+
+.inputStyle {
+    width: 60%;
+    height: 35px;
+    padding: 10px;
+}
+
+label {
+    font-size: 20px;
+}

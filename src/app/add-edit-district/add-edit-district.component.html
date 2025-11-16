@@ -1,0 +1,37 @@
+<div class="contsiner p-4">
+    <div class="addHeader">
+        Add District
+    </div>
+    <div class=" bodyContent">
+        <form [formGroup]="districtForm">
+            <div class="d-flex row mb-4">
+                <div class="col-6">
+                    <label class="me-2">District Name :</label>
+                    <input class="inputStyle" formControlName="districtName">
+                </div>
+                <div class="col-6">
+                    <label class="me-2">Select State</label>
+                    <select class="selectClass" formControlName="stateName">
+                        <option selected>-- Please select --</option>
+                        <option *ngFor="let s of stateList" value="s.id">{{s.stateName}}</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row mb-4">
+                <div class="col-6">
+                    <label class="me-2">District Population :</label>
+                    <input class="inputStyle" formControlName="statePopulation">
+                </div>
+                <div class="col-6">
+                    <label class="me-2">Constituensy :</label>
+                    <input class="inputStyle" formControlName="stateConstituensy">
+                </div>
+            </div>
+            <div class="d-flex justify-content-center">
+                <button class="btn btn-danger" (click)="onCancelClick()">Cancel</button>&nbsp;&nbsp;
+                <button type="submit" class="btn btn-primary" (click)="onSubmit()">Submit</button>
+            </div>
+        </form>
+
+    </div>
+</div>
