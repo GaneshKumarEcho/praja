@@ -15,7 +15,7 @@ import { AddEditVillageComponent } from './add-edit-village/add-edit-village.com
 import { AddEditVoterComponent } from './add-edit-voter/add-edit-voter.component';
 
 const routes: Routes = [
-  //test ganesh
+  //test ganesh=>sai
   {
     path: 'state', component: StateComponent
   },
